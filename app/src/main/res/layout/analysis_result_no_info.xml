@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitleNoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/analysis"
+        android:textSize="45sp"
+        android:background="@color/light_black"
+        android:textColor="@color/dark_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvStockfishResultNoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stockfish_result"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="@+id/glResultNoInfo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleNoInfo" />
+
+    <TextView
+        android:id="@+id/tvBestMoveNoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/best_move"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/glResultNoInfo"
+        app:layout_constraintTop_toBottomOf="@+id/tvStockfishResultNoInfo" />
+
+    <TextView
+        android:id="@+id/tvExpectedResponseNoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expected_response"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/glResultNoInfo"
+        app:layout_constraintTop_toBottomOf="@+id/tvBestMoveNoInfo" />
+
+    <View
+        android:id="@+id/dividerNoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/light_black"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvExpectedResponseNoInfo" />
+
+    <TextView
+        android:id="@+id/tvNoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/not_in_lichess_database"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerNoInfo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glResultNoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.13" />
+</androidx.constraintlayout.widget.ConstraintLayout>
