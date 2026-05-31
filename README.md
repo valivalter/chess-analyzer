@@ -13,11 +13,11 @@ also continuously monitor a physical game and transcribe moves into
 standard chess notation.
 
 <p align="center">
-  <img src="images/mainactivity.jpg" width="180" alt="Main menu">
-  <img src="images/analyzeractivity_with_rotate.jpg" width="180" alt="Chessboard screen">
-  <img src="images/analyzeractivity_piecepicker.jpg" width="180" alt="Piece picker">
-  <img src="images/analyzeractivity_analysis.jpg" width="180" alt="Analysis">
-  <img src="images/screen_recording_short.gif" width="163" alt="Real-time game tracking and transcribing">
+  <img src="images/mainactivity.jpg" width="153" alt="Main menu">
+  <img src="images/analyzeractivity_with_rotate.jpg" width="153" alt="Chessboard screen">
+  <img src="images/analyzeractivity_piecepicker.jpg" width="153" alt="Piece picker">
+  <img src="images/analyzeractivity_analysis.jpg" width="153" alt="Analysis">
+  <img src="images/screen_recording_short.gif" width="139" alt="Real-time game tracking and transcribing">
 </p>
 
 ## Features
